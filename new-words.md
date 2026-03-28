@@ -35,6 +35,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 - usage:
   - line 1
   - line 2
+  - line 3
 - example:
   - Sentence one.
   - Sentence two.
