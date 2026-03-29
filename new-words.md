@@ -23,19 +23,22 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## word
 - phonetic: /IPA/
 - difficulty: 1
+- categories: communication, planning
 - meaning: Vietnamese
 - definition: English definition
 - usage: single grammar note
 - example: one example sentence
 ```
 
-### Multi-line `usage` / `example`
+### Multi-line `usage` / `example` / `categories`
 
 ```
+- categories:
+  - communication
+  - collaboration
 - usage:
   - line 1
   - line 2
-  - line 3
 - example:
   - Sentence one.
   - Sentence two.
@@ -48,6 +51,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## acknowledge
 - phonetic: /əkˈnɒlɪdʒ/
 - difficulty: 2
+- categories: communication, collaboration
 - meaning: thừa nhận, xác nhận đã nhận được
 - definition: to accept or confirm that something is true, or that a message has been received
 - usage:
@@ -62,6 +66,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## actionable
 - phonetic: /ˈækʃənəbl/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: có thể thực hiện ngay, khả thi, cụ thể
 - definition: clear and specific enough to be acted on immediately
 - usage:
@@ -75,6 +80,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## address
 - phonetic: /əˈdres/
 - difficulty: 1
+- categories: execution, planning
 - meaning: giải quyết, đề cập đến, xử lý (vấn đề)
 - definition: to deal with or speak about a problem, issue, or concern
 - usage:
@@ -89,6 +95,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## agenda
 - phonetic: /əˈdʒendə/
 - difficulty: 1
+- categories: meetings, collaboration
 - meaning: chương trình nghị sự, danh sách nội dung cuộc họp
 - definition: a list of items to be discussed or acted on in a meeting
 - usage:
@@ -102,6 +109,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## agile
 - phonetic: /ˈædʒaɪl/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: linh hoạt, nhanh nhẹn; phương pháp Agile
 - definition: able to move and adapt quickly; also refers to the Agile software development methodology
 - usage:
@@ -115,6 +123,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## align
 - phonetic: /əˈlaɪn/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: thống nhất, đồng bộ hóa, phối hợp hướng đi
 - definition: to make sure that goals, priorities, or teams are in agreement and working toward the same direction
 - usage:
@@ -129,6 +138,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## allocate
 - phonetic: /ˈæləkeɪt/
 - difficulty: 2
+- categories: planning, execution
 - meaning: phân bổ, phân phối (nguồn lực, ngân sách, thời gian)
 - definition: to distribute or assign resources, time, or responsibilities for a specific purpose
 - usage:
@@ -142,6 +152,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## approve
 - phonetic: /əˈpruːv/
 - difficulty: 1
+- categories: execution, planning
 - meaning: phê duyệt, chấp thuận
 - definition: to officially agree to or accept something such as a plan, request, or document
 - usage:
@@ -156,6 +167,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## architecture
 - phonetic: /ˈɑːkɪtektʃər/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: kiến trúc hệ thống, cấu trúc tổng thể
 - definition: the high-level structure and design of a software system, including components and their relationships
 - usage:
@@ -170,6 +182,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## assign
 - phonetic: /əˈsaɪn/
 - difficulty: 1
+- categories: execution, planning
 - meaning: giao việc, phân công nhiệm vụ
 - definition: to give someone a task, role, or responsibility
 - usage:
@@ -184,6 +197,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## benchmark
 - phonetic: /ˈbentʃmɑːk/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: chuẩn đối sánh, tiêu chuẩn đánh giá hiệu suất
 - definition: a standard or point of reference used to measure and compare performance
 - usage:
@@ -198,6 +212,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## bottleneck
 - phonetic: /ˈbɒtlnek/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: điểm nghẽn, nút thắt cổ chai làm chậm toàn hệ thống
 - definition: a point in a process where the flow is restricted, causing delays or reduced performance
 - usage:
@@ -212,6 +227,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## brainstorm
 - phonetic: /ˈbreɪnstɔːm/
 - difficulty: 1
+- categories: meetings, collaboration
 - meaning: động não, cùng đưa ra ý tưởng tự do
 - definition: to generate ideas freely in a group session without initial criticism
 - usage:
@@ -226,6 +242,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## brief
 - phonetic: /briːf/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: thông báo, tóm tắt tình hình (cho ai); ngắn gọn
 - definition: (v) to give someone essential information about a topic before they act; (adj) short in duration
 - usage:
@@ -240,6 +257,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## capacity
 - phonetic: /kəˈpæsɪti/
 - difficulty: 2
+- categories: planning, execution
 - meaning: năng lực, công suất, khả năng tiếp nhận
 - definition: the maximum amount a team or system can handle; available bandwidth to take on work
 - usage:
@@ -253,6 +271,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## clarify
 - phonetic: /ˈklærɪfaɪ/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: làm rõ, giải thích rõ ràng hơn
 - definition: to make something easier to understand by explaining it in more detail
 - usage:
@@ -267,6 +286,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## collaborate
 - phonetic: /kəˈlæbəreɪt/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: cộng tác, hợp tác cùng nhau
 - definition: to work jointly with others toward a shared goal
 - usage:
@@ -281,6 +301,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## commitment
 - phonetic: /kəˈmɪtmənt/
 - difficulty: 2
+- categories: execution, planning
 - meaning: cam kết, lời hứa thực hiện
 - definition: a promise or obligation to do something, or a dedication to a goal
 - usage:
@@ -294,6 +315,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## comprehensive
 - phonetic: /ˌkɒmprɪˈhensɪv/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: toàn diện, đầy đủ, bao quát
 - definition: including all or nearly all aspects of something; thorough
 - usage:
@@ -307,6 +329,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## consensus
 - phonetic: /kənˈsensəs/
 - difficulty: 2
+- categories: communication, collaboration
 - meaning: sự đồng thuận, nhất trí chung
 - definition: a general agreement among all members of a group
 - usage:
@@ -320,6 +343,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## convene
 - phonetic: /kənˈviːn/
 - difficulty: 2
+- categories: meetings, collaboration
 - meaning: triệu tập, tổ chức (cuộc họp, nhóm)
 - definition: to bring people together for a meeting or formal gathering
 - usage:
@@ -334,6 +358,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## coordinate
 - phonetic: /kəʊˈɔːdɪneɪt/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: phối hợp, điều phối giữa các bên
 - definition: to organize people or efforts so they work together effectively
 - usage:
@@ -348,6 +373,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## criteria
 - phonetic: /kraɪˈtɪəriə/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: tiêu chí (số nhiều của criterion)
 - definition: the plural of criterion; standards or conditions used to judge or decide something
 - usage:
@@ -362,6 +388,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## critical
 - phonetic: /ˈkrɪtɪkl/
 - difficulty: 1
+- categories: execution, planning
 - meaning: quan trọng, then chốt; nghiêm trọng
 - definition: extremely important; or indicating a serious problem requiring immediate attention
 - usage:
@@ -375,6 +402,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## deadline
 - phonetic: /ˈdedlaɪn/
 - difficulty: 1
+- categories: planning, execution
 - meaning: thời hạn cuối, deadline
 - definition: the latest time or date by which something must be completed
 - usage:
@@ -388,6 +416,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## debug
 - phonetic: /diːˈbʌɡ/
 - difficulty: 1
+- categories: engineering, execution
 - meaning: gỡ lỗi, tìm và sửa lỗi trong code
 - definition: to identify and remove errors or bugs from software code
 - usage:
@@ -402,6 +431,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## delegate
 - phonetic: /ˈdelɪɡeɪt/
 - difficulty: 2
+- categories: execution, planning
 - meaning: ủy quyền, giao phó (công việc hoặc quyền hạn) cho người khác
 - definition: to assign responsibility or authority to someone else
 - usage:
@@ -416,6 +446,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## deliverable
 - phonetic: /dɪˈlɪvərəbl/
 - difficulty: 2
+- categories: execution, planning
 - meaning: sản phẩm bàn giao, kết quả cụ thể cần giao nộp
 - definition: a specific output or result that must be produced and handed over as part of a project
 - usage:
@@ -429,6 +460,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## dependency
 - phonetic: /dɪˈpendənsi/
 - difficulty: 2
+- categories: execution, planning
 - meaning: sự phụ thuộc, thành phần hoặc bên phụ thuộc vào nhau
 - definition: something that relies on or must be completed before another thing can proceed; also a software library relied upon
 - usage:
@@ -442,6 +474,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## deploy
 - phonetic: /dɪˈplɔɪ/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: triển khai (phần mềm lên môi trường)
 - definition: to release and make software available in a live or staging environment
 - usage:
@@ -456,6 +489,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## document
 - phonetic: /ˈdɒkjʊment/
 - difficulty: 1
+- categories: execution, planning
 - meaning: ghi chép, tài liệu hóa
 - definition: (v) to record information clearly so others can reference it later
 - usage:
@@ -470,6 +504,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## draft
 - phonetic: /drɑːft/
 - difficulty: 1
+- categories: execution, planning
 - meaning: bản nháp; soạn thảo (văn bản, kế hoạch)
 - definition: (n) a preliminary version of a document; (v) to write a first version
 - usage:
@@ -484,6 +519,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## effective
 - phonetic: /ɪˈfektɪv/
 - difficulty: 1
+- categories: execution, planning
 - meaning: hiệu quả (đạt được mục tiêu đề ra)
 - definition: producing the intended or expected result; successful in achieving a goal
 - usage:
@@ -497,6 +533,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## efficient
 - phonetic: /ɪˈfɪʃnt/
 - difficulty: 1
+- categories: execution, planning
 - meaning: hiệu quả (tiết kiệm nguồn lực, thời gian, chi phí)
 - definition: achieving results with minimum wasted time, effort, or resources
 - usage:
@@ -510,6 +547,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## escalate
 - phonetic: /ˈeskəleɪt/
 - difficulty: 2
+- categories: execution, planning
 - meaning: leo thang; báo cáo lên cấp trên; nâng cao mức độ ưu tiên
 - definition: to increase in severity or urgency; to refer an issue to someone with more authority
 - usage:
@@ -524,6 +562,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## estimate
 - phonetic: /ˈestɪmeɪt/
 - difficulty: 1
+- categories: planning, execution
 - meaning: ước tính, dự đoán (thời gian, chi phí, độ phức tạp)
 - definition: (v) to approximately calculate the time, cost, or size of something; (n) the resulting figure
 - usage:
@@ -538,6 +577,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## evaluate
 - phonetic: /ɪˈvæljueɪt/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: đánh giá, thẩm định một cách có hệ thống
 - definition: to assess something carefully before making a judgment or decision
 - usage:
@@ -552,6 +592,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## execute
 - phonetic: /ˈeksɪkjuːt/
 - difficulty: 2
+- categories: execution, planning
 - meaning: thực thi, triển khai (kế hoạch, chiến lược)
 - definition: to carry out or implement a plan, task, or strategy
 - usage:
@@ -566,6 +607,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## expedite
 - phonetic: /ˈekspɪdaɪt/
 - difficulty: 3
+- categories: execution, planning
 - meaning: thúc đẩy, đẩy nhanh tiến độ xử lý
 - definition: to make something happen more quickly than it normally would
 - usage:
@@ -579,6 +621,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## facilitate
 - phonetic: /fəˈsɪlɪteɪt/
 - difficulty: 2
+- categories: execution, planning
 - meaning: tạo điều kiện, điều phối (cuộc họp, quy trình)
 - definition: to make a process or meeting easier by organizing and guiding it without being the decision-maker
 - usage:
@@ -593,6 +636,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## feasibility
 - phonetic: /ˌfiːzəˈbɪlɪti/
 - difficulty: 3
+- categories: analysis, planning
 - meaning: tính khả thi
 - definition: the degree to which something is possible or practical given the constraints
 - usage:
@@ -606,6 +650,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## feedback
 - phonetic: /ˈfiːdbæk/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: phản hồi, góp ý
 - definition: information given in response to work, behavior, or a process, used to improve it
 - usage:
@@ -620,6 +665,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## flexible
 - phonetic: /ˈfleksɪbl/
 - difficulty: 1
+- categories: collaboration, communication
 - meaning: linh hoạt, dễ thích nghi với thay đổi
 - definition: able to change or be changed easily in response to different circumstances
 - usage:
@@ -634,6 +680,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## follow up
 - phonetic: /ˈfɒləʊ ʌp/
 - difficulty: 1
+- categories: meetings, collaboration
 - meaning: theo dõi tiếp theo, nhắc nhở, làm việc tiếp theo sau đó
 - definition: to take further action on something previously discussed or started
 - usage:
@@ -648,6 +695,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## framework
 - phonetic: /ˈfreɪmwɜːk/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: khung, nền tảng (kỹ thuật hoặc quy trình)
 - definition: a structured system or set of guidelines used as a foundation for development or decision-making
 - usage:
@@ -661,6 +709,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## impact
 - phonetic: /ˈɪmpækt/
 - difficulty: 1
+- categories: analysis, planning
 - meaning: tác động, ảnh hưởng
 - definition: the effect or influence that something has on a person, system, or process
 - usage:
@@ -675,6 +724,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## implement
 - phonetic: /ˈɪmplɪment/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: triển khai, thực hiện (tính năng, giải pháp)
 - definition: to put a plan, decision, or system into effect
 - usage:
@@ -689,6 +739,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## initiative
 - phonetic: /ɪˈnɪʃɪətɪv/
 - difficulty: 2
+- categories: planning, execution
 - meaning: sáng kiến, hành động chủ động; dự án/chương trình chiến lược
 - definition: a new plan or action intended to solve a problem or improve something; the ability to act independently
 - usage:
@@ -702,6 +753,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## insight
 - phonetic: /ˈɪnsaɪt/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: thấu hiểu sâu sắc, nhận thức có giá trị
 - definition: a deep understanding of a situation, often revealing something not immediately obvious
 - usage:
@@ -716,6 +768,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## integrate
 - phonetic: /ˈɪntɪɡreɪt/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: tích hợp, kết hợp các hệ thống hoặc thành phần lại với nhau
 - definition: to combine separate systems, parts, or services so they work together as a whole
 - usage:
@@ -730,6 +783,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## iterate
 - phonetic: /ˈɪtəreɪt/
 - difficulty: 2
+- categories: execution, planning
 - meaning: lặp lại và cải tiến, làm nhiều vòng
 - definition: to repeat a process with improvements based on feedback, particularly in software development
 - usage:
@@ -744,6 +798,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## launch
 - phonetic: /lɔːntʃ/
 - difficulty: 1
+- categories: execution, planning
 - meaning: ra mắt, phát hành (sản phẩm, tính năng)
 - definition: to officially release a product, feature, or service for public or internal use
 - usage:
@@ -758,6 +813,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## legacy
 - phonetic: /ˈleɡəsi/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: hệ thống cũ, di sản (code/hạ tầng không còn hiện đại)
 - definition: old or outdated code, systems, or infrastructure that is still in use but difficult to maintain
 - usage:
@@ -771,6 +827,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## leverage
 - phonetic: /ˈlevərɪdʒ/
 - difficulty: 3
+- categories: execution, planning
 - meaning: tận dụng, khai thác tối đa (nguồn lực, công cụ, lợi thế)
 - definition: to use something to its maximum advantage
 - usage:
@@ -785,6 +842,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## metrics
 - phonetic: /ˈmetrɪks/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: số liệu đo lường, chỉ số đánh giá
 - definition: quantitative measures used to track performance, progress, or quality
 - usage:
@@ -798,6 +856,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## milestone
 - phonetic: /ˈmaɪlstəʊn/
 - difficulty: 2
+- categories: planning, execution
 - meaning: cột mốc quan trọng trong dự án
 - definition: a significant point or event in the progress of a project, used to mark achievements
 - usage:
@@ -811,6 +870,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## mitigate
 - phonetic: /ˈmɪtɪɡeɪt/
 - difficulty: 3
+- categories: execution, planning
 - meaning: giảm thiểu, hạn chế (rủi ro, tác động tiêu cực)
 - definition: to reduce the severity, seriousness, or painfulness of something
 - usage:
@@ -825,6 +885,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## monitor
 - phonetic: /ˈmɒnɪtər/
 - difficulty: 1
+- categories: execution, planning
 - meaning: theo dõi, giám sát liên tục
 - definition: to regularly check and observe a system, process, or metric over time
 - usage:
@@ -839,6 +900,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## negotiate
 - phonetic: /nɪˈɡəʊʃieɪt/
 - difficulty: 2
+- categories: communication, collaboration
 - meaning: thương lượng, đàm phán để đi đến thỏa thuận
 - definition: to discuss and reach an agreement through compromise
 - usage:
@@ -853,6 +915,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## objective
 - phonetic: /əbˈdʒektɪv/
 - difficulty: 2
+- categories: planning, execution
 - meaning: mục tiêu (cụ thể, có thể đo lường); khách quan
 - definition: (n) a specific, measurable goal; (adj) based on facts rather than personal feelings
 - usage:
@@ -867,6 +930,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## onboard
 - phonetic: /ˈɒnbɔːd/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: tiếp nhận và hướng dẫn người mới (nhân viên hoặc khách hàng)
 - definition: to integrate a new employee or client into a system or organization
 - usage:
@@ -881,6 +945,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## optimize
 - phonetic: /ˈɒptɪmaɪz/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: tối ưu hóa, cải thiện để đạt hiệu suất tốt nhất
 - definition: to make something as effective, efficient, or functional as possible
 - usage:
@@ -895,6 +960,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## outcome
 - phonetic: /ˈaʊtkʌm/
 - difficulty: 1
+- categories: analysis, planning
 - meaning: kết quả, đầu ra cuối cùng
 - definition: the final result or consequence of a process, meeting, or action
 - usage:
@@ -908,6 +974,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## overview
 - phonetic: /ˈəʊvəvjuː/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: cái nhìn tổng quan, tóm tắt ở cấp độ cao
 - definition: a brief summary or general description of a subject
 - usage:
@@ -921,6 +988,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## performance
 - phonetic: /pəˈfɔːməns/
 - difficulty: 1
+- categories: engineering, execution
 - meaning: hiệu suất; kết quả thực hiện công việc
 - definition: how well a system, process, or person functions relative to expectations or benchmarks
 - usage:
@@ -934,6 +1002,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## phase
 - phonetic: /feɪz/
 - difficulty: 1
+- categories: planning, execution
 - meaning: giai đoạn trong dự án hoặc quy trình
 - definition: a distinct stage in a process or project
 - usage:
@@ -947,6 +1016,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## prioritize
 - phonetic: /praɪˈɒrɪtaɪz/
 - difficulty: 2
+- categories: planning, execution
 - meaning: ưu tiên hóa, sắp xếp theo thứ tự quan trọng
 - definition: to arrange tasks or items in order of importance or urgency
 - usage:
@@ -961,6 +1031,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## proceed
 - phonetic: /prəˈsiːd/
 - difficulty: 1
+- categories: execution, planning
 - meaning: tiến hành, tiếp tục (với kế hoạch đã được xác nhận)
 - definition: to continue doing something or begin after a pause or confirmation
 - usage:
@@ -974,6 +1045,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## productive
 - phonetic: /prəˈdʌktɪv/
 - difficulty: 1
+- categories: execution, planning
 - meaning: có năng suất, hiệu quả trong công việc
 - definition: achieving a lot; generating useful results in a given amount of time
 - usage:
@@ -988,6 +1060,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## progress
 - phonetic: /ˈprəʊɡres/ (n) /prəˈɡres/ (v)
 - difficulty: 1
+- categories: execution, planning
 - meaning: tiến độ, sự tiến triển; tiến lên
 - definition: (n) forward movement toward a goal; (v) to move forward or improve
 - usage:
@@ -1002,6 +1075,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## propose
 - phonetic: /prəˈpəʊz/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: đề xuất, đưa ra ý kiến để thảo luận
 - definition: to put forward an idea, plan, or suggestion for consideration
 - usage:
@@ -1016,6 +1090,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## prototype
 - phonetic: /ˈprəʊtətaɪp/
 - difficulty: 2
+- categories: execution, planning
 - meaning: nguyên mẫu, phiên bản thử nghiệm ban đầu
 - definition: an early working model of a product used to test concepts before full development
 - usage:
@@ -1030,6 +1105,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## recommend
 - phonetic: /ˌrekəˈmend/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: đề nghị, khuyến nghị (dựa trên kinh nghiệm hoặc phân tích)
 - definition: to suggest something as the best option based on knowledge or experience
 - usage:
@@ -1044,6 +1120,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## refactor
 - phonetic: /riːˈfæktər/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: tái cấu trúc mã nguồn mà không thay đổi hành vi bên ngoài
 - definition: to restructure existing code to improve its readability, maintainability, or performance without changing its external behavior
 - usage:
@@ -1058,6 +1135,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## release
 - phonetic: /rɪˈliːs/
 - difficulty: 1
+- categories: engineering, execution
 - meaning: phiên bản phát hành; phát hành (phần mềm)
 - definition: (n) a version of software made available to users; (v) to make software available
 - usage:
@@ -1072,6 +1150,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## requirement
 - phonetic: /rɪˈkwaɪərmənt/
 - difficulty: 1
+- categories: planning, execution
 - meaning: yêu cầu (tính năng, hệ thống, kinh doanh)
 - definition: something that is needed or specified as a condition for a project or system
 - usage:
@@ -1085,6 +1164,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## resolve
 - phonetic: /rɪˈzɒlv/
 - difficulty: 2
+- categories: execution, planning
 - meaning: giải quyết, xử lý dứt điểm (vấn đề, xung đột, lỗi)
 - definition: to find a solution to a problem or bring a conflict to an end
 - usage:
@@ -1099,6 +1179,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## resource
 - phonetic: /rɪˈzɔːs/
 - difficulty: 1
+- categories: planning, execution
 - meaning: nguồn lực (người, thời gian, ngân sách, hệ thống)
 - definition: anything that can be used to achieve a goal, including people, tools, time, and budget
 - usage:
@@ -1112,6 +1193,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## review
 - phonetic: /rɪˈvjuː/
 - difficulty: 1
+- categories: analysis, planning
 - meaning: đánh giá, xem xét, kiểm tra
 - definition: to examine or assess something carefully, often before a decision or release
 - usage:
@@ -1126,6 +1208,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## risk
 - phonetic: /rɪsk/
 - difficulty: 1
+- categories: analysis, planning
 - meaning: rủi ro, mối nguy cơ có thể xảy ra
 - definition: the possibility that something could go wrong or cause harm to a project or system
 - usage:
@@ -1139,6 +1222,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## roadmap
 - phonetic: /ˈrəʊdmæp/
 - difficulty: 1
+- categories: planning, execution
 - meaning: lộ trình, kế hoạch dài hạn của sản phẩm hoặc hệ thống
 - definition: a high-level plan that outlines goals, priorities, and milestones over a future time period
 - usage:
@@ -1152,6 +1236,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## robust
 - phonetic: /rəʊˈbʌst/
 - difficulty: 3
+- categories: analysis, planning
 - meaning: mạnh mẽ, vững chắc, đáng tin cậy trong mọi tình huống
 - definition: strong, reliable, and able to handle errors, edge cases, and high load without failing
 - usage:
@@ -1166,6 +1251,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## rollout
 - phonetic: /ˈrəʊlaʊt/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: triển khai diện rộng, ra mắt dần từng bước
 - definition: the process of gradually releasing a feature or system to users in stages
 - usage:
@@ -1179,6 +1265,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## scalable
 - phonetic: /ˈskeɪləbl/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: có khả năng mở rộng khi tải tăng
 - definition: able to handle increased load or growth without significant rework or performance degradation
 - usage:
@@ -1192,6 +1279,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## scope
 - phonetic: /skəʊp/
 - difficulty: 2
+- categories: planning, execution
 - meaning: phạm vi (của dự án, tính năng, hoặc sprint)
 - definition: the defined boundaries of a project—what is and is not included
 - usage:
@@ -1205,6 +1293,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## sprint
 - phonetic: /sprɪnt/
 - difficulty: 1
+- categories: planning, execution
 - meaning: sprint — chu kỳ phát triển ngắn trong Agile (thường 1-2 tuần)
 - definition: a fixed-length iteration in Agile development during which a specific set of work is completed
 - usage:
@@ -1218,6 +1307,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## stakeholder
 - phonetic: /ˈsteɪkhəʊldər/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: bên liên quan, người có quyền lợi hoặc ảnh hưởng trong dự án
 - definition: a person or group with an interest in the outcome of a project, including clients, managers, and end-users
 - usage:
@@ -1231,6 +1321,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## strategy
 - phonetic: /ˈstrætɪdʒi/
 - difficulty: 2
+- categories: planning, execution
 - meaning: chiến lược, kế hoạch tổng thể dài hạn
 - definition: a plan designed to achieve a long-term goal or competitive advantage
 - usage:
@@ -1244,6 +1335,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## streamline
 - phonetic: /ˈstriːmlaɪn/
 - difficulty: 3
+- categories: execution, planning
 - meaning: tinh giản, tối ưu hóa quy trình để nhanh hơn và ít phức tạp hơn
 - definition: to simplify and improve a process so it works more efficiently with fewer steps
 - usage:
@@ -1258,6 +1350,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## timeline
 - phonetic: /ˈtaɪmlaɪn/
 - difficulty: 1
+- categories: planning, execution
 - meaning: kế hoạch thời gian, dòng thời gian của dự án
 - definition: a visual or written representation of events or tasks scheduled over a period of time
 - usage:
@@ -1271,6 +1364,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## track
 - phonetic: /træk/
 - difficulty: 1
+- categories: execution, planning
 - meaning: theo dõi, truy vết tiến độ hoặc trạng thái
 - definition: to monitor and record the progress, status, or movement of something over time
 - usage:
@@ -1284,6 +1378,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## transition
 - phonetic: /trænˈzɪʃn/
 - difficulty: 2
+- categories: execution, planning
 - meaning: chuyển đổi, quá trình chuyển từ trạng thái/hệ thống này sang trạng thái/hệ thống khác
 - definition: the process of changing from one state, system, or situation to another
 - usage:
@@ -1297,6 +1392,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## update
 - phonetic: /ˈʌpdeɪt/
 - difficulty: 1
+- categories: communication, collaboration
 - meaning: cập nhật; thông báo tình hình mới nhất
 - definition: (v) to make something current or communicate the latest status; (n) the latest information or version
 - usage:
@@ -1310,6 +1406,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## validate
 - phonetic: /ˈvælɪdeɪt/
 - difficulty: 2
+- categories: analysis, planning
 - meaning: xác thực, kiểm chứng tính đúng đắn (dữ liệu, giả thuyết, tính năng)
 - definition: to confirm that something is correct, accurate, or meets the required standard
 - usage:
@@ -1324,6 +1421,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## vendor
 - phonetic: /ˈvendər/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: nhà cung cấp bên ngoài (dịch vụ, công cụ, phần mềm)
 - definition: an external company or individual that supplies products or services to an organization
 - usage:
@@ -1337,6 +1435,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## workaround
 - phonetic: /ˈwɜːkəraʊnd/
 - difficulty: 2
+- categories: engineering, execution
 - meaning: giải pháp tạm thời, cách khắc phục khi chưa có fix chính thức
 - definition: a temporary solution used to bypass a problem when the proper fix is not yet available
 - usage:
@@ -1350,6 +1449,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## workload
 - phonetic: /ˈwɜːkləʊd/
 - difficulty: 1
+- categories: execution, planning
 - meaning: khối lượng công việc phải xử lý
 - definition: the amount of work that a person or system has to do
 - usage:
@@ -1363,6 +1463,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## accountable
 - phonetic: /əˈkaʊntəbl/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: chịu trách nhiệm, phải giải trình
 - definition: required to explain or justify actions and decisions; responsible for results
 - usage:
@@ -1377,6 +1478,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## transparency
 - phonetic: /trænsˈpærənsi/
 - difficulty: 2
+- categories: communication, collaboration
 - meaning: tính minh bạch, sự cởi mở về thông tin
 - definition: the quality of being open and clear about processes, decisions, and information
 - usage:
@@ -1390,6 +1492,7 @@ Each word block starts with `## <word>`, followed by attribute lines.
 ## proactive
 - phonetic: /ˌprəʊˈæktɪv/
 - difficulty: 2
+- categories: collaboration, communication
 - meaning: chủ động, tiên liệu và hành động trước khi vấn đề xảy ra
 - definition: taking initiative to prevent problems or create opportunities rather than waiting to react
 - usage:

@@ -23,20 +23,24 @@ Each word starts with `## <word>` followed by attribute lines.
 ## word
 - phonetic: /IPA/
 - difficulty: 1         (1 = Easy, 2 = Medium, 3 = Hard)
+- categories: communication, planning
 - meaning: Vietnamese   (required)
 - definition: English definition
 - usage: single-line grammar note
 - example: single example sentence
 ```
 
-### Multi-line `usage` and `example`
+### Multi-line `usage`, `example`, and `categories`
 
-Use `- usage:` (empty value) then indent sub-bullets with two spaces:
+Use `- usage:` / `- example:` / `- categories:` (empty value) then indent sub-bullets with two spaces:
 
 ```
 ## word
 - phonetic: /IPA/
 - difficulty: 2
+- categories:
+  - communication
+  - collaboration
 - meaning: Vietnamese meaning
 - definition: English definition
 - usage:
